@@ -8,5 +8,4 @@ resource azurerm_virtual_network "vnet" {
   location            = data.azurerm_resource_group.rg.location
   address_space       = var.vnetCIDR
   dns_servers         = var.dnsServers
-  tags                = var.common_tags
 }

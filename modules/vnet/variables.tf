@@ -19,21 +19,3 @@ variable "dnsServers" {
   description = "The DNS servers to be used with vNet"
   default     = []
 }
-
-variable "subnetPrefixes" {
-  type        = list(string)
-  description = "The address prefix to use for the subnet"
-}
-
-variable "subnetNames" {
-  type        = list(string)
-  description = "A list of public subnets inside the vNet"
-}
-
-variable "nsgIds" {
-  description = "A map of subnet name to Network Security Group IDs"
-  type        = map(string)
-  default     = {}
-}
-
-variable "common_tags" {}
