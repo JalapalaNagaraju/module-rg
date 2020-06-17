@@ -1,2 +1,1 @@
-# module-rg
-Module for Resource Group
+Repository Structure for Modules
